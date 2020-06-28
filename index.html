@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div class="container navigation pt-3">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-start align-items-center">
+          <i class="fas fa-code fa-2x text-warning pb-3"></i>
+          <h5 class="d-inline pl-2 text-white">Portfolio</h5>
+        </div>
+        <div class="col-6 pt-2">
+          <div
+            class="row text-center p-0 d-flex justify-content-end align-items-center"
+          >
+            <div class="col-3">
+              <a href="#about" class="text-white navigation-link">A propos</a>
+            </div>
+            <div class="col-3">
+              <a href="#projects" class="text-white navigation-link"
+                >Projets</a
+              >
+            </div>
+            <div class="col-3">
+              <a href="#social-media" class="text-white navigation-link"
+                >Réseaux Sociaux</a
+              >
+            </div>
+            <div class="col-3">
+              <a
+                href="images/CV Tristan reconversion pro 4.pdf"
+                target="_blank"
+                class="text-white navigation-link"
+                >Curriculum Vitae</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container container">
+      <div class="row main_row">
+        <div class="col">
+          <h2 class="text-white">Hello, je suis</h2>
+          <h1 class="text-warning m-heading" id="nom_prenom"></h1>
+          <h2 class="text-white">Passioné du Web</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container about p-5">
+      <div class="row">
+        <div class="col-4">
+          <img src="./images/about_img.svg" class="img-fluid" />
+        </div>
+        <div class="col-8 pl-5 pt-5 pb-5 text-white">
+          <h3 class="text-warning">A propos de moi</h3>
+          <h1 class="m-heading">Qui suis-je ?</h1>
+          <p>
+            Réunionnais ayant grandi avec les prémices des <b class="text-warning">jeux vidéos</b> et des <b class="text-warning">ordinateurs</b>
+            je me décide enfin à me lancer à 100 % dans ce monde qui ne cesse d'évoluer
+            pour rendre meilleurs notre quotidien.
+          </p>
+          <br />
+          <p>
+            De nature curieuse, le Web me permet d'en apprendre plus tous les jours.
+            Il y a tellement de savoir à acquérir et à renouveler qu'on est sans cesse, en remise
+            en question !
+          </p>
+          <button class="btn btn-outline-warning">En apprendre plus</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="container">
+      <h1 class="text-warning mb-3 pb-2">Mes projets</h1>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">JQuery Modal</h5>
+              <p class="card-text">HTML, CSS, JQuery.</p>
+              <a href="https://tristantmt.github.io/JQuery_modal/" class="btn btn-primary" target="_blank">Cliquez ici</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Modal JS</h5>
+              <p class="card-text">HTML, CSS, JavaScript.</p>
+              <a href="https://tristantmt.github.io/modale_js/" class="btn btn-primary" target="_blank">Cliquez ici</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">LinkedIn_chargement</h5>
+              <p class="card-text">HTML, CSS.</p>
+              <a href="https://tristantmt.github.io/LinkedIn_chargement/" class="btn btn-primary" target="_blank">Cliquez ici</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Check e-mail</h5>
+              <p class="card-text">HTML, CSS, JavaScript</p>
+              <a href="https://tristantmt.github.io/check_email/" class="btn btn-primary" target="_blank">Cliquez ici</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <!-- Social Media Section -->
+    <div id="social-media" class="container-fluid">
+      <div class="container text-white py-5">
+        <h4 class="text-warning">Réseaux Sociaux</h4>
+        <h1 class="m-heading">Let's be friends</h1>
+        <div class="row pt-5">
+          <div class="col-3 media_link btn" href="#">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white"><a class= "text-white" href="https://www.linkedin.com/in/tristan-tien-mi-tiee-52a65a1aa/" target="_blank">LinkedIn</a></h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 media_link btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white"><a class= "text-white" href="https://github.com/TristanTMT" target="_blank">Github</a></h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-github fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 media_link bg-warning btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white"><a href="mailto:tristantienmitiee@gmail.com" class="text-white">Email</a></h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fas fa-envelope fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-muted text-center py-3 mt-5">
+        <h5>
+          Copyright &copy; 2020 |
+          <a class="text-warning text-decoration-none" href="#about"
+            >TIEN-MI-TIEE Tristan</a
+          >
+        </h5>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
