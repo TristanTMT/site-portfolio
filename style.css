@@ -57,8 +57,8 @@ body {
 
 .card {
   border-bottom: 8px solid #f5ba09;
-  margin: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  background: #313552;
 }
 
 /* Social Media Section */
@@ -73,4 +73,8 @@ body {
   margin-left: 1rem;
   border: 2px solid #f5ba09;
   border-radius: 0.5rem;
+}
+
+#mes-projets {
+  margin-top: 20px;
 }
